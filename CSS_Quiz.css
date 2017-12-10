@@ -1,0 +1,18 @@
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#quiz {
+	margin-left: 5px;
+	background: orange;
+	padding: 5px 10px 5px 10px;
+	float: left;
+}
+
+#button {
+	background: green;
+	padding: 10px;
+	color: azure;
+	font-size: 15px;
+		
+}

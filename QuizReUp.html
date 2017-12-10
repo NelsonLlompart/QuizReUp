@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz ReUp</title>
+<script src = "../JS_Quiz"></script>
+</head>
+
+<body>
+<h1>Naughty Or Nice?</h1>
+<form id = "quiz" name="quiz">
+
+<p>Do you try to help people often?</p>
+<input type = "radio" id = "mc" name = "question1" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question1" value = "no">no<br>
+
+<p>Do you put others ahead of you often?</p>
+<input type = "radio" id = "mc" name = "question2" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question2" value = "no">no<br>
+
+<p>Do you put others down often?</p>
+<input type = "radio" id = "mc" name = "question3" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question3" value = "no">no<br>
+
+<p>Do you do nice things for others?</p>
+<input type = "radio" id = "mc" name = "question4" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question4" value = "no">no<br>
+
+<p>Are you regularly a positive person?</p>
+<input type = "radio" id = "mc" name = "question5" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question5" value = "no">no<br>
+
+<p>Do you give to others often?</p>
+<input type = "radio" id = "mc" name = "question6" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question6" value = "no">no<br>
+
+<p>Do you insult others regularly?</p>
+<input type = "radio" id = "mc" name = "question7" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question7" value = "no">no<br>
+
+<p>Do you compliment others regularly?</p>
+<input type = "radio" id = "mc" name = "question8" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question8" value = "no">no<br>
+
+<p>Do you ignore others regularly?</p>
+<input type = "radio" id = "mc" name = "question9" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question9" value = "no">no<br>
+
+<p>Do you like to surprise others?</p>
+<input type = "radio" id = "mc" name = "question10" value = "yes">yes<br>
+<input type = "radio" id = "mc" name = "question10" value = "no">no<br>
+
+<input id = "button" type = "button" value = "Done" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+<p id = "message"></p>
+	<p id = "number_correct">You finished, Good Job!</p>
+	<img id = "pics">
+</div>
+</body>
+</html>
